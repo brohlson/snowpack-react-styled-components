@@ -1,10 +1,30 @@
 {
   "scripts": {
-    "start": "snowpack dev",
+    "dev": "snowpack dev",
     "build": "snowpack build",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "devDependencies": {
+    "@snowpack/plugin-react-refresh": "^2.4.2",
+    "@snowpack/plugin-webpack": "^2.3.1",
     "snowpack": "^3.0.1"
-  }
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.3",
+    "styled-reboot": "^5.0.0"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "browserslist": [
+    "ie >= 10",
+    "last 4 chrome versions",
+    "safari >= 6",
+    "ios >= 6",
+    "firefox >= 35",
+    "opera >= 31"
+  ]
 }
