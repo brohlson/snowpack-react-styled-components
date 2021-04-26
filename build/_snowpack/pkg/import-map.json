@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "react-router-dom": "./react-router-dom.js",
+    "styled-components": "./styled-components.js",
+    "styled-reboot": "./styled-reboot.js"
+  }
+}
